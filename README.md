@@ -55,4 +55,4 @@
 ## After that
 * In theory, everything is OK if you follow the steps I give. In fect, you can type 'python **.py' to test them.
 * Now it just only supports one account, one email and one city(because of my laziness). I don't guarantee that I will update them(maybe).
-* Maybe it's too cumbersome to complete the automation part, but I'm too lazy to change them.
+* Maybe it's too cumbersome to implement automation, but I'm too lazy to change them.
