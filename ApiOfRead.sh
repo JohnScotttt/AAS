@@ -1,0 +1,2 @@
+cd /
+python ApiOfRead.py

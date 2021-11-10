@@ -1,0 +1,2 @@
+cd /
+python UpdateToken.py
