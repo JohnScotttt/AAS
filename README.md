@@ -20,15 +20,15 @@
 * If you have an MS E5 administrator account, next time we will use **it**, which ending with 'onmicrosoft.com'.
 ### Azure
 * Open [Azure](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade), sign in the account.
-* Click <kbd>**+ New registration**</kbd>.
+* Click <kbd>+ New registration</kbd>.
     * Fill in **Name**, select the third item for the **supported account types**.
     * **Redirect URI (optional)** is filled in https://login.microsoftonline.com/common/oauth2/nativeclient.
-    * Click <kbd>**register**</kbd>.
+    * Click <kbd>register</kbd>.
     * You will get a **Application (client) ID** in Overview, copy it.
-* Click <kbd>**Certificates & secrets**</kbd>.
-    * Click <kbd>**+ New client secret**</kbd>.
+* Click <kbd>Certificates & secrets</kbd>.
+    * Click <kbd>+ New client secret</kbd>.
     * Fill in **Description** and select **Expires**(futher is better.In fact, we could select **never expire** before).
-    * Click <kbd>**Add**</kbd>, and you will get a **Value**, copy it(If you close the web, you will never get it).
+    * Click <kbd>Add</kbd>, and you will get a **Value**, copy it(If you close the web, you will never get it).
 ### MS refresh_token
 * Download the ***GetToken.html*** file in the project, or create a new HTML suffix document locally and copy the contents of **GetToken.html** into it. Then open it locally and get **refresh_token** according to the prompt inside.
 ### Config
