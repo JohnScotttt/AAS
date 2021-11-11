@@ -1,4 +1,4 @@
-# AutoApiServer
+# AutoApiServer v1.0
 
 ## Purpose
 * Renew MS E5 account.
@@ -27,7 +27,7 @@
     * You will get a **Application (client) ID** in Overview, copy it.
 * Click <kbd>Certificates & secrets</kbd>.
     * Click <kbd>+ New client secret</kbd>.
-    * Fill in **Description** and select **Expires**(futher is better.In fact, we could select **never expire** before).
+    * Fill in **Description** and select **Expires**(futher is better.In fact, I could select **never expire** before).
     * Click <kbd>Add</kbd>, and you will get a **Value**, copy it(If you close the web, you will never get it).
 ### MS refresh_token
 * Download the ***GetToken.html*** file in the project, or create a new HTML suffix document locally and copy the contents of **GetToken.html** into it. Then open it locally and get **refresh_token** according to the prompt inside.
