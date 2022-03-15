@@ -20,7 +20,7 @@ log_list=[0]
 config = {
          'api_rand': 1,
          'rounds': 3,
-         'rounds_delay': [1,60,120],
+         'rounds_delay': [1,10,60],
          'api_delay': [1,2,6],
          'app_delay': [0,30,60],
          }

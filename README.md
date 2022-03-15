@@ -44,7 +44,7 @@
     * You need to pip install requests, xlsxwriter(the most important. If one of something is missing, pip install it).
     * Upload the code named '***ApiOfRead.py***', '***ApiOfWrite.py***', '***UpdateToken.py***' to the **same directory** on the server.
 * Cron
-    * Type '**sudo crontab - e**' at the terminal, select your editor, type '**i**', then fill:
+    * Type '**sudo crontab -e**' at the terminal, select your editor, type '**i**', then fill:
         ```shell
         10 10 * * 1,4,6 /(your directory absolute path)/UpdateToken.sh
         12 23 * * * /(your directory absolute path)/ApiOfWrite.sh
